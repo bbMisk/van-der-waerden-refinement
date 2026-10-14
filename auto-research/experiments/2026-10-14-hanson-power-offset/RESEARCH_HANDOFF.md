@@ -122,7 +122,11 @@ a changed source pin. Receipts are in `VALIDATION.json`.
 Submitted exactly one focused research-note PR: [#11](https://github.com/rohanarun/van-der-waerden-refinement/pull/11),
 through `bbMisk:research/seed46-profile-family`. The local claim and track
 index link the result. Local checks pass; remote checks and maintainer review
-are separate. No merge or maintainer acceptance is claimed.
+are separate. GitHub reported `action_required` with no job results for
+[workflow run 38591677550](https://github.com/rohanarun/van-der-waerden-refinement/actions/runs/38591677550)
+on submitted head `ee7a7cd22cbb56294ff635f17078abed02a0bc6b`. A remote CI pass
+is not claimed; the workflow action and maintainer review remain external
+obligations. No merge or maintainer acceptance is claimed.
 
 For a mathematical reviewer, the principal obligations are the two scaled
 integer-stencil limits and the `h<a` tripling reduction. The proof states its

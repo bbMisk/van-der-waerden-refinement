@@ -66,5 +66,13 @@
       "expected": "base source hash mismatch: parameters.json",
       "observed": "FAIL: base source hash mismatch: parameters.json"
     }
-  ]
+  ],
+  "remote_observation": {
+    "head_commit": "ee7a7cd22cbb56294ff635f17078abed02a0bc6b",
+    "run_url": "https://github.com/rohanarun/van-der-waerden-refinement/actions/runs/38591677550",
+    "status": "completed",
+    "conclusion": "action_required",
+    "job_results": "none listed by gh run view",
+    "ci_pass_claimed": false
+  }
 }

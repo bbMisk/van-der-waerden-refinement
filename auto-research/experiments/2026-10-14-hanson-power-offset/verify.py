@@ -184,11 +184,11 @@ def check_files():
     manifest = json.loads((HERE / 'MANIFEST.json').read_text())
     actual = {p.relative_to(HERE).as_posix() for p in HERE.rglob('*')
               if p.is_file() and p != HERE / 'MANIFEST.json'}
-    listed = {p for p in manifest['files'] if not p.startswith('../')}
+    listed = set(manifest['files'])
     require(actual == listed, 'manifest file set differs from contribution files')
     for relative, expected in manifest['files'].items():
         p = (HERE / relative).resolve()
-        require(p.is_relative_to(HERE.parent), 'manifest path escapes track')
+        require(p.is_relative_to(HERE), 'manifest path escapes contribution')
         require(sha256(p.read_bytes()).hexdigest() == expected,
                 f'package hash mismatch: {relative}')
     pins = json.loads((HERE / 'SOURCES.json').read_text())

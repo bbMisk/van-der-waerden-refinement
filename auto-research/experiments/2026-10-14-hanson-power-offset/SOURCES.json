@@ -33,6 +33,8 @@
     },
     "review_document": "PR10 formal/CONDITIONAL-REVIEW.md read from its pinned Git object",
     "issues_all_states": [],
-    "conclusion": "No overlap found in the listed PR files and review document. Neither PR is a mathematical dependency."
+    "conclusion": "No overlap found in the listed PR files and review document. Neither PR is a mathematical dependency.",
+    "pre_submission_refresh": "Same two open PR heads; empty all-state issue list; upstream main still equals base.",
+    "refresh_recorded_utc": "2026-10-14T15:40:57Z"
   }
 }

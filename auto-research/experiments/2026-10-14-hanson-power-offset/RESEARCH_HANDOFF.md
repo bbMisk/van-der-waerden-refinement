@@ -119,8 +119,10 @@ report normally and under `python3 -O`. Four package controls reject a changed
 proof, an unlisted nested file, a false result with a recomputed manifest, and
 a changed source pin. Receipts are in `VALIDATION.json`.
 
-Submission status: ready for one focused research-note PR. The account lacks
-upstream push permission, so submission uses a fork. No merge is authorized.
+Submitted exactly one focused research-note PR: [#11](https://github.com/rohanarun/van-der-waerden-refinement/pull/11),
+through `bbMisk:research/seed46-profile-family`. The local claim and track
+index link the result. Local checks pass; remote checks and maintainer review
+are separate. No merge or maintainer acceptance is claimed.
 
 For a mathematical reviewer, the principal obligations are the two scaled
 integer-stencil limits and the `h<a` tripling reduction. The proof states its

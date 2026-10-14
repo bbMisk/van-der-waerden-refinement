@@ -16,4 +16,4 @@ Related sources: [repository research note](../../research-note.tex),
 
 | Date | Contributor | Result | Status | PR |
 | --- | --- | --- | --- | --- |
-| 2026-10-14 | Hanson Sun with Codex | [Power-and-offset matrix-profile family characterized; minimum diagonal exponent remains 4/3](2026-10-14-hanson-power-offset/README.md) | Research note and scoped no-gain result; exact checks; human review pending | Pending submission |
+| 2026-10-14 | Hanson Sun with Codex | [Power-and-offset matrix-profile family characterized; minimum diagonal exponent remains 4/3](2026-10-14-hanson-power-offset/README.md) | Research note and scoped no-gain result; exact checks; human review pending | [11](https://github.com/rohanarun/van-der-waerden-refinement/pull/11) |

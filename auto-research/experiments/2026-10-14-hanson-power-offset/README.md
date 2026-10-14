@@ -28,7 +28,9 @@ must equal the saved `RESULT.json`. The command reads and hashes its package
 and pinned base files, uses only the Python standard library, writes no files,
 and remains effective under `python3 -O`. See `RESULT.json` for exact counts,
 parameters, negative witnesses, and scope. `MANIFEST.json` hashes all other
-regular contribution files and the track index; it necessarily excludes itself.
+regular contribution files; it necessarily excludes itself. The shared track
+index is outside the contribution manifest so later index appends do not
+invalidate this package.
 
 ## Family and precise statement
 
@@ -174,7 +176,9 @@ Finally, with `S=a+b-1` and `u<=v`, both `F(u)` and `v+lambda(u-1)` are
 at most `S`, since `lambda<=1/2<=1`. Their product with the stated powers
 is at most `S^(s+1)`. The diagonal formula follows by substitution.
 Since `2/(1+lambda)` decreases strictly with `lambda`, its unique minimum
-on this interval is `4/3` at the repository's profile.
+on this interval is `4/3` at the repository's profile. An envelope with
+`t>1/p` is impossible even on the diagonal: its right-hand side has exponent
+`1/t<p`, whereas `P(a,a)=Theta(a^p)`.
 
 ## Exact computational evidence and controls
 

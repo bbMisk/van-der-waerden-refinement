@@ -1,0 +1,17 @@
+{
+  "algorithm": "sha256",
+  "self_exclusion": "MANIFEST.json is excluded to avoid an impossible self-referential hash. Every other regular contribution file and the track index is included.",
+  "files": {
+    "CLAIM.json": "4279bcbdb05ed8136e02e6833e0d840ca68cf640e3796568fa5bb2a26dd6e01a",
+    "NOTICE.md": "4d6f0d21d79caa37a9474db544c29864010fd87e695b9d8822474889ecc450b8",
+    "PR_DESCRIPTION.md": "dd4128204a9a9e3923a118e113e454f54302c3547735fb23eaababa495cc987d",
+    "README.md": "c65fa037d7c81e1d5ff49744b16dedf296f0369a53de10a776ef375484a6952e",
+    "RESEARCH_HANDOFF.md": "71b625aa636f6c5ffecac3a824f77ba295527bccac15ccc6182d735c9d2b776d",
+    "RESULT.json": "8dfdddefa6e0982d175cd216fa16ba52a882fa3a19c5434bb165b38ee97b862a",
+    "SOURCES.json": "fa72e1822fa2a4ee491b23d630ecfcc88ac3c7b9ca2a1f770705f1846decd2a4",
+    "VALIDATION.json": "b062e59f7897d090559d02eb7f995309b17d467765dd1a2f5a25f470b9139851",
+    "check_identities.py": "213629d4a2ae700d864d8b3cb74fc4ea2cb88a21d2997af9309f49503a5e9311",
+    "verify.py": "a766eb73fd25117d7d3d90c08335d8caaeb64da2389dc1749f26ffaa27925eeb",
+    "../README.md": "38d41106b6f798a4fb0dd64b60a8eef04ff2b8cc85c1cc3660864303f2734dec"
+  }
+}
